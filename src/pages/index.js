@@ -7,7 +7,7 @@ import Img from 'gatsby-image'
 const IndexPage = ({ data }) => {
   return (
     <div className={style.home}>
-      <SEO title="JeffSmellsLikeToots" />
+      <SEO title="Centeva Blog" />
       <h1><marquee>Centeva Blog</marquee></h1>
 
       {data.allMarkdownRemark.edges.map(({ node }) => (
